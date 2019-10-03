@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  }
+  body {
+    background-color: #891715;
+    font-family: Arial, Sans-Serif;
+  }
+
+header {
+    background-color: #891715;
+    height: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+header img {
+    height: 80px;
+    margin: 10px;
+}
+.box1 {
+    position: relative;
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 450px;
+    background-color: #87a984;
+}
+.top {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #909090;
+    font-size: 20px;
+}
+.top li {
+    float: left;
+    border-right: 1px solid white;
+  }
+.top li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 30px;
+    text-decoration: none;
+}
+.top li a:hover {
+    background-color: #891715;
+}
+.top li:first-child {
+    border-right: none;
+}
+.slikica {
+    position: absolute;
+    width: 281px;
+    height: 273px;
+    bottom: 20px;
+    margin-left: 8%;
+}
+.slikica img {
+    width: 220px;
+}
+.about {
+    position: absolute;
+    width: 60%;
+    right: 70px;
+    bottom: 50px;
+    font-size: 20px;
+    color: white;
+}
+.how {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+    height: 900px;
+    background-color: #DBD8C5;
+}
+.menu {
+    position: absolute;
+    height: 900px;
+    width: 500px;
+    background-color: #96AFAC;
+}
+.side {
+    position: absolute;
+    top: 30px;
+    list-style-type: none;
+    margin: 0;
+    margin-left: 80px;
+    padding: 0;
+    width: 300px;
+    background-color: #96AFAC;
+    font-size: 20px;
+  }
+.side li a {
+    display: block;
+    color: white;
+    padding: 8px 80px;
+    padding-left: 20px;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+.side li a:hover {
+    background-color: #DBD8C5;
+    color: white;
+  }
+.text {
+    position: absolute;
+    top: 30px;
+    width: 60%;
+    right: 70px;
+    font-size: 20px;
+    color: #454747;
+}
+.text h1 {
+    color: #586C73;
+}
